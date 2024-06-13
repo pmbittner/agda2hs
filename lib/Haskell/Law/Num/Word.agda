@@ -6,9 +6,11 @@ open import Haskell.Prim.Function
 open import Haskell.Prim.Num
 open import Haskell.Prim.Word
 
-open import Haskell.Law.Num
 open import Haskell.Law.Equality
 open import Haskell.Law.Function
+
+open import Haskell.Law.Num.Def
+open import Haskell.Law.Num.Nat
 
 open Num iNumNat  renaming (_+_ to _+ⁿ_; _*_ to _*ⁿ_)
 open Num iNumWord renaming (_+_ to _+ʷ_; _*_ to _*ʷ_)
